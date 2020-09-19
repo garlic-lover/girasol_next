@@ -1,0 +1,55 @@
+{
+  "header": { "tagline": "Partagez avec vos élèves" },
+  "menu": {
+    "vocab": "Vocabulaire",
+    "conjug": "Conjugaison",
+    "self": "Auto-apprentissage",
+    "ex": "Exercices",
+    "ex_creator": "Créateur d'exercice",
+    "my": "Mes exercices",
+    "res": "Ressources",
+    "stud": "Elèves",
+    "settings": "Paramètres"
+  },
+  "voc": {
+    "title": "Vocabulaire",
+    "dicionnary": "Dictionnaire",
+    "perTag": "Par tag",
+    "myLists": "Mes listes"
+  },
+  "conj": {
+    "title": "Conjugaison"
+  },
+  "self": {
+    "title": "Auto-apprentissage",
+    "voc": "Vocabulaire",
+    "verbs": "Verbes"
+  },
+  "exCre": {
+    "title": "Créateur d'exercice",
+    "create": "Créer",
+    "preview": "Apperçu",
+    "theTitle": "Titre",
+    "descr": "Description"
+  },
+  "studs": {
+    "title": "Elèves",
+    "subTitle": "Vous pouvez cliquer sur un-e élève (en attente ou non) ou en ajouter un-e autre",
+    "notConfirmed": "Elève non confirmé(e)",
+    "code": "Code",
+    "studentAdd": "Ajouter un-e élève"
+  },
+  "stud": {
+    "back": "Retour",
+    "leftMenu": [
+      { "name": "Ressources" },
+      { "name": "Exercices" },
+      { "name": "Evaluation" },
+      { "name": "Live" }
+    ],
+    "share": "Partager",
+    "ressourceType": "Type de ressource",
+    "exType": "Type d'exercice"
+  },
+  "deconnect": "Se déconnecter"
+}

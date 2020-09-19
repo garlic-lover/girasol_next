@@ -1,0 +1,11 @@
+[
+  { "name": "Noun" },
+  { "name": "Verb" },
+  { "name": "Adjecctive" },
+  { "name": "Adverb" },
+  { "name": "Conjunction" },
+  { "name": "Preposition" },
+  { "name": "Conjunction" },
+  { "name": "Pronoun" },
+  { "name": "Article" }
+]

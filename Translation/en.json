@@ -1,0 +1,55 @@
+{
+  "header": { "tagline": "Share with your students" },
+  "menu": {
+    "vocab": "Vocabulary",
+    "conjug": "Conjugation",
+    "self": "Self-training",
+    "ex": "Exercices",
+    "ex_creator": "Exercice creator",
+    "my": "My exercices",
+    "res": "Recourses",
+    "stud": "Students",
+    "settings": "Settings"
+  },
+  "voc": {
+    "title": "Vocabulary",
+    "dicionnary": "Dictionnary",
+    "perTag": "Per tag",
+    "myLists": "My lists"
+  },
+  "conj": {
+    "title": "Conjugation"
+  },
+  "self": {
+    "title": "Self-training",
+    "voc": "Vocabulary",
+    "verbs": "Verbs"
+  },
+  "exCre": {
+    "title": "Exercice creator",
+    "create": "Create",
+    "preview": "Preview",
+    "theTitle": "Title",
+    "descr": "Description"
+  },
+  "studs": {
+    "title": "Students",
+    "subTitle": "You can click on a (pending or not) student or add a new one",
+    "notConfirmed": "Student not confirmed",
+    "code": "Code",
+    "studentAdd": "Add student"
+  },
+  "stud": {
+    "back": "Back",
+    "leftMenu": [
+      { "name": "Resources" },
+      { "name": "Exercices" },
+      { "name": "Test" },
+      { "name": "Live" }
+    ],
+    "share": "Share",
+    "ressourceType": "Ressource type",
+    "exType": "Exercice Type"
+  },
+  "deconnect": "Deconnect"
+}

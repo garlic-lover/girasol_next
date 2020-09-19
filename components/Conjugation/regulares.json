@@ -1,0 +1,125 @@
+{
+  "-ar": {
+    "indicativo": {
+      "presento": {
+        "Yo": "-o",
+        "Tu": "-as",
+        "Ella/El": "-a",
+        "Nosotros": "-amos",
+        "Ustedes/Ellos/Ellas": "-an"
+      },
+      "preterito imperfecto": {
+        "Yo": "-aba",
+        "Tu": "-abas",
+        "Ella/El": "-aba",
+        "Nosotros": "-abamos",
+        "Ustedes/Ellos/Ellas": "-aban"
+      },
+      "preterito perfecto": {
+        "Yo": "-é",
+        "Tu": "-aste",
+        "Ella/El": "-ó",
+        "Nosotros": "-amos",
+        "Ustedes/Ellos/Ellas": "-aron"
+      }
+    },
+    "subjonctivo": {
+      "presento": {
+        "Yo": "-e",
+        "Tu": "-es",
+        "Ella/El": "-e",
+        "Nosotros": "-emos",
+        "Ustedes/Ellos/Ellas": "-en"
+      },
+      "imperfecto": {
+        "Yo": "-ara",
+        "Tu": "-aras",
+        "Ella/El": "-ara",
+        "Nosotros": "-aramos",
+        "Ustedes/Ellos/Ellas": "-aran"
+      }
+    }
+  },
+  "-er": {
+    "indicativo": {
+      "presento": {
+        "Yo": "-o",
+        "Tu": "-es",
+        "Ella/El": "-e",
+        "Nosotros": "-emos",
+        "Ustedes/Ellos/Ellas": "-en"
+      },
+      "preterito imperfecto": {
+        "Yo": "-ía",
+        "Tu": "-ías",
+        "Ella/El": "-ía",
+        "Nosotros": "-íamos",
+        "Ustedes/Ellos/Ellas": "-ían"
+      },
+      "preterito perfecto": {
+        "Yo": "- í",
+        "Tu": "-iste",
+        "Ella/El": "-ió",
+        "Nosotros": "-imos",
+        "Ustedes/Ellos/Ellas": "-ieron"
+      }
+    },
+    "subjonctivo": {
+      "presento": {
+        "Yo": "-a",
+        "Tu": "-as",
+        "Ella/El": "-a",
+        "Nosotros": "-amos",
+        "Ustedes/Ellos/Ellas": "-an"
+      },
+      "imperfecto": {
+        "Yo": "-iera",
+        "Tu": "-ieras",
+        "Ella/El": "-iera",
+        "Nosotros": "-ieramos",
+        "Ustedes/Ellos/Ellas": "-ieran"
+      }
+    }
+  },
+  "-ir": {
+    "indicativo": {
+      "presento": {
+        "Yo": "-o",
+        "Tu": "-es",
+        "Ella/El": "-e",
+        "Nosotros": "-imos",
+        "Ustedes/Ellos/Ellas": "-en"
+      },
+      "preterito imperfecto": {
+        "Yo": "-ía",
+        "Tu": "-ías",
+        "Ella/El": "-ía",
+        "Nosotros": "-íamos",
+        "Ustedes/Ellos/Ellas": "-ían"
+      },
+      "preterito perfecto": {
+        "Yo": "- í",
+        "Tu": "-iste",
+        "Ella/El": "-ió",
+        "Nosotros": "-imos",
+        "Ustedes/Ellos/Ellas": "-ieron"
+      }
+    },
+    "subjonctivo": {
+      "presento": {
+        "Yo": "-a",
+        "Tu": "-as",
+        "Ella/El": "-a",
+        "Nosotros": "-amos",
+        "Ustedes/Ellos/Ellas": "-an"
+      },
+      "imperfecto": {
+        "Yo": "-iera",
+        "Tu": "-ieras",
+        "Ella/El": "-iera",
+        "Nosotros": "-ieramos",
+        "Ustedes/Ellos/Ellas": "-ieran"
+      }
+    }
+  }
+}

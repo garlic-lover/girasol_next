@@ -1,0 +1,53 @@
+{
+  "header": { "tagline": "Intercambia con sus estudiantes" },
+  "menu": {
+    "vocab": "Vocabulario",
+    "conjug": "Conjugación",
+    "self": "Auto-aprendizaje",
+    "ex": "Ejercicios",
+    "ex_creator": "Ejercicio creator",
+    "my": "Mi ejercicios",
+    "res": "Recursos",
+    "stud": "Alumnes",
+    "settings": "Configuracion"
+  },
+  "voc": {
+    "title": "Vocabulario",
+    "dicionnary": "Dictionario",
+    "perTag": "Tag",
+    "myLists": "Mis listados"
+  },
+  "conj": { "title": "Conjugación" },
+  "self": {
+    "title": "Auto-aprendizaje",
+    "voc": "Vocabulario",
+    "verbs": "Verbos"
+  },
+  "exCre": {
+    "title": "Exercicio creator",
+    "create": "Crear",
+    "preview": "Avance",
+    "theTitle": "Título",
+    "descr": "Descripción"
+  },
+  "studs": {
+    "title": "Alumnes",
+    "subTitle": "Puede hacer clic en un estudiante (pendiente o no) o agregar uno nuevo",
+    "notConfirmed": "Estudiante no confirmado",
+    "code": "Codigo",
+    "studentAdd": "Agregar student"
+  },
+  "stud": {
+    "back": "Atrás",
+    "leftMenu": [
+      { "name": "Recursos" },
+      { "name": "Ejercicio" },
+      { "name": "Test" },
+      { "name": "In vivo" }
+    ],
+    "share": "Compartir",
+    "ressourceType": "Typo de recursos",
+    "exType": "Typo de ejercicio"
+  },
+  "deconnect": "Desconectarse"
+}
