@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function ({ addEl }) {
+export default function ToP({ addEl }) {
   return (
     <TextOrPic>
       <div

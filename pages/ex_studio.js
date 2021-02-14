@@ -21,7 +21,7 @@ export default function ExStudio() {
   return (
     <ExCreator>
       <Row>
-        <Title>{t("exCre", "title")}</Title>
+        <h2>{t("exCre", "title")}</h2>
         <div>
           <ExSelecter
             value={ex}
@@ -89,10 +89,6 @@ const Row = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-`;
-
-const Title = styled.h2`
-  margin-bottom: 12px;
 `;
 
 const Menu = styled.div`

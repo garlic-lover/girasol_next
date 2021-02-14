@@ -24,7 +24,7 @@ export default function MB({ themes, displaySigninChange }) {
   }, []);
 
   return (
-    <Header scrolled={isScrolled}>
+    <Header scrolled={true}>
       <div>
         <Link href="/">
           <Title>Idiomas</Title>
@@ -39,7 +39,14 @@ export default function MB({ themes, displaySigninChange }) {
               Ressources
               <ul>
                 <li>
-                  <a>Créer</a>
+                  <a>
+                    <Link href="/res_studio">Créer</Link>
+                  </a>
+                </li>
+                <li>
+                  <Link href="/my_exercices">
+                    <a>Gérer</a>
+                  </Link>
                 </li>
                 <li>
                   <a>Explorer</a>
@@ -59,7 +66,14 @@ export default function MB({ themes, displaySigninChange }) {
                   </Link>
                 </li>
                 <li>
-                  <a>Explorer</a>
+                  <Link href="/my_exercices">
+                    <a>Gérer</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/exercices">
+                    <a>Explorer</a>
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -176,7 +190,10 @@ const Item = styled.div`
     color: grey;
     padding: 8px 0;
   }
-  & ul li a,
+  & ul li a {
+    transition: ease-in 0.5s;
+    color: transparent;
+  }
   & li:hover li a {
     color: grey;
   }

@@ -9,20 +9,21 @@ const Button = styled.button`
   color: ${(props) => (props.borders ? props.theme.color1 : "white")};
   cursor: pointer;
   border: solid 1px ${(props) => props.theme.color1};
-  background-color: ${(props) => !props.borders && props.theme.color1};
-  /*  &:hover {
-    color: ${(props) =>
-    props.borders ? props.theme.color3 : "white"};
+  background-color: ${(props) => !props.borders && props.theme.color3};
+  &:hover {
+    /* color: ${(props) =>
+      props.borders ? props.theme.color3 : "white"};
     background-color: ${(
-    props
-  ) => !props.borders && props.theme.color3};
+      props
+    ) => !props.borders && props.theme.color3};
     border-color: ${(props) =>
-    props.theme.color3};
-  } */
+      props.theme.color3}; */
+    transform: translateY(1px);
+  }
   &:active {
     color: ${(props) => (props.borders ? props.theme.color2 : "white")};
     background-color: ${(props) => !props.borders && props.theme.color2};
-    transform: translateY(1px);
+    transform: translateY(2px);
     border-color: ${(props) => props.theme.color2};
   }
 `;

@@ -28,6 +28,7 @@ ${resetter}
   h2 {
     font-family: "Playfair";
     font-size : 1.6rem;
+    margin-bottom : 20px;
   }
   h3 {
     font-family: "Playfair";

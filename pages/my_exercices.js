@@ -1,8 +1,7 @@
-import React from "react";
 import styled from "styled-components";
 
 import { useQuery, useMutation, gql } from "@apollo/client";
-import EX_LIST_GET from "../../../GraphQl/Queries/EX_LIST_GET";
+import EX_LIST_GET from "../GraphQl/Queries/EX_LIST_GET";
 
 const EX_DELETE = gql`
   mutation exDelete($_id: String) {
@@ -10,7 +9,7 @@ const EX_DELETE = gql`
   }
 `;
 
-export default function () {
+export default function MyEx() {
   const { loading, error, data, refetch } = useQuery(EX_LIST_GET);
   const [exDelete] = useMutation(EX_DELETE, {
     onCompleted: (ev) => {

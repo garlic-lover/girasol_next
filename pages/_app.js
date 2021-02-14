@@ -4,7 +4,7 @@ import { ApolloProvider, createHttpLink } from "@apollo/client";
 import { setContext } from "@apollo/client/link/context";
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 
-// import "../styles/reset.css";
+import "../styles/locomotive-scroll.css";
 import "../styles/mathsquill.css";
 
 import Layout from "../components/Layout";

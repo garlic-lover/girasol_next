@@ -4,7 +4,7 @@ import styled from "styled-components";
 import TextOrPic from "./TextOrPic";
 // import AudioAdd from "./AudioAdd";
 
-export default function () {
+export default function RB() {
   const [exTitle, titleChange] = useState("");
   const [exDescription, descriptionChange] = useState("");
 

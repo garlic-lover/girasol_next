@@ -1,16 +1,16 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 
-import DS from "../../DS/DS";
+import DS from "../DS/DS";
 
-import ResourceBuilder from "./ResourceBuilder";
+import ResourceBuilder from "../components/Resources/ResourceBuilder";
 
-export default function () {
+export default function RS() {
   const [page, pageSelect] = useState({ part: "left", index: 0 });
 
   return (
     <Resources>
-      <Title>Ressources</Title>
+      <h2>Ressources</h2>
       <DS.TopBarMenu
         itemsLeft={[
           { name: "Créer une ressource" },
@@ -28,8 +28,4 @@ export default function () {
 
 const Resources = styled.div`
   width: 100%;
-`;
-
-const Title = styled.h2`
-  margin-bottom: 24px;
 `;
